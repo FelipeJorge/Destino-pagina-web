@@ -1,2 +1,2 @@
-# Destino - página web
- Aplicativo destino versão web
+# App destino - página web
+ Aplicativo destino versão web html/css
