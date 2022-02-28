@@ -1,0 +1,220 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #000000;
+    padding: 10px  0;
+}
+.logoinicial{
+    width: 300px;
+    height: 80px;
+    margin: 50px 0;
+}
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 20px;
+}
+nav {
+    position: absolute;
+    top: 60px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color:rgb(76, 162, 212)
+    
+}
+
+.Viagens {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.Viagens li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid #000000 ;
+    border-radius: 10px;
+}
+.localimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.Viagens li:hover {
+    border-color: rgb(45, 108, 138);
+}
+.Viagens li:active{
+    border-color: cornflowerblue;
+}
+.Viagens li:hover h2{
+    font-size: 35px;
+}
+.Viagens h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricacao {
+    font-size: 30px;
+
+    }
+.preco {
+    font-size: 22px ;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background: #000000;
+    width: 100%;
+    padding: 40px;
+}
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+/* Pagina de cadastro */
+.cadastro{
+    background: #888888;
+    background: linear-gradient(#FFFFFF,#888888)
+}
+form{
+    margin: 40px ;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+.input-padrao,form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 30%;
+    padding: 15px 0 ;
+    background: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s background ;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background: rgb(40, 59, 94);
+
+}
+table{
+    margin: 20px 40px;
+
+}
+thead{
+    background-color:  rgb(40, 59, 94);
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 15px 8px;
+}
+/* css página inicial */
+.imgcelular{
+    width: 70%;
+    float: left;
+}
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE ;
+    width: 940px;
+    margin: 0 auto;
+   
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.principal p {
+    margin: 0 0 1em;
+    line-height: 1.5;
+    
+}
+.principal strong{
+    font-weight: bold;
+}
+.opcoes-app{
+    clear: left;
+    padding: 3em 0;
+    background: #888888;
+    background: linear-gradient(#FFFFFF,#888888)
+}
+.mapa {
+    padding: 3em 0;   
+}
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
+.img2-app{
+    width: 50%;
+}
+
+.conteudo-app{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-app{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens {
+    line-height: 1.5;
+}
+@media screen and (max-width: 480px) {
+    .caixa, .principal,.opcoes-app,.mapa-conteudo,.video{
+        width: auto;
+    }
+    h1 {
+         text-align: center;
+        }
+    nav {
+        position: static;
+    }
+    .lista-app, .img2-app{
+        width: 100%;
+    }
+}
