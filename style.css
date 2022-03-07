@@ -14,6 +14,7 @@ header {
     width: 940px;
     position: relative;
     margin: 20px;
+
 }
 nav {
     position: absolute;
@@ -22,7 +23,7 @@ nav {
 }
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 15px; 
 }
 nav a{
     color: white;
